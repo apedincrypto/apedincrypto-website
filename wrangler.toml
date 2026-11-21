@@ -1,0 +1,12 @@
+name = "apedincrypto-waitlist-api"
+main = "worker.js"
+compatibility_date = "2026-11-21"
+
+[vars]
+ALLOWED_ORIGIN = "https://apedincrypto.com"
+DOI_REDIRECT_URL = "https://apedincrypto.com/confirmed.html"
+
+# Add secrets with:
+# npx wrangler secret put BREVO_API_KEY
+# npx wrangler secret put TURNSTILE_SECRET_KEY
+# Set BREVO_LIST_ID and BREVO_DOI_TEMPLATE_ID below after creating them in Brevo.

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d20">
+  <meta name="description" content="CANDY³ — get sweet treats in Web3. Join the waitlist for project announcements from Aped in Crypto.">
+  <title>CANDY³ — Get Sweet Treats in Web3</title>
+  <link rel="preload" as="image" href="/assets/candy3-hero-banner.jpg">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script>
+    window.SITE_CONFIG = {
+      // Replace with your Cloudflare Turnstile site key before enabling the form.
+      turnstileSiteKey: "REPLACE_WITH_TURNSTILE_SITE_KEY"
+    };
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CANDY cubed home">
+      <img src="/assets/candy3-logo-crop.png" alt="CANDY³">
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#waitlist">Join the waitlist <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art">
+        <img src="/assets/candy3-hero-banner.jpg" alt="CANDY³ logo with a colourful swirling lollipop and orbiting planets">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A data-driven trading education platform</p>
+        <h1 id="hero-title">Turn market complexity<br><em>into clarity.</em></h1>
+        <p class="hero-intro">Liquidity hunts. Choppy markets. Difficult charts. You’re not alone. Join Aped’s CANDY³ and get early access to a new way of learning how to read, understand and trade charts.</p>
+        <div id="waitlist"><form id="waitlist-form" class="waitlist-form">
+          <label class="sr-only" for="email">Email address</label>
+          <div class="input-row">
+            <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+            <button type="submit">Join the waitlist <span aria-hidden="true">→</span></button>
+          </div>
+          <label class="consent">
+            <input type="checkbox" id="consent" required>
+            <span>I agree to receive CANDY³ project updates by email. I can unsubscribe at any time.</span>
+          </label>
+          <div class="turnstile-slot" id="turnstile-slot"><div class="cf-turnstile" data-sitekey="REPLACE_WITH_TURNSTILE_SITE_KEY"></div></div>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          <input class="honeypot" type="text" name="company_website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        </form></div>
+        <p class="microcopy">Be early. Get the first updates when CANDY³ opens.</p>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-visual">
+        <img src="/assets/aped-in-crypto-banner.png" alt="Aped in Crypto cosmic banner with Bitcoin, Ethereum and Solana imagery">
+        <div class="about-stamp">
+          <img src="/assets/aped-in-crypto-avatar.jpg" alt="Aped in Crypto avatar">
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow"><span></span> Behind the project</p>
+        <h2 id="about-title">Learn to read<br><em>the market.</em></h2>
+        <p>Trading since 2012. Two crypto market cycles. Nearly 15 years across Forex, stocks and commodities.</p>
+        <p>If you find today’s choppy markets and liquidity hunts challenging to navigate, you’re not alone. Aped’s CANDY³ is a data-driven, forward-looking trading education platform built to turn complexity into simplicity.</p>
+        <p>Learn through bite-sized modules and video courses, shaped by five years of educational content, continuous study and lessons gathered from experienced traders across Crypto Twitter and beyond.</p>
+        <p>Whether you’re building your chart-reading foundations or looking to sharpen your trading process, there will be something to learn. Join the waitlist to be among the first to hear when access opens.</p>
+        <div class="social-links" aria-label="Aped in Crypto social channels">
+          <a href="https://x.com/apedintocrypto" target="_blank" rel="noopener noreferrer">X <span aria-hidden="true">↗</span></a>
+          <a href="https://www.youtube.com/@apedincrypto" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
+          <a href="https://substack.com/@apedincrypto" target="_blank" rel="noopener noreferrer">Substack <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#top">CANDY<span>³</span></a>
+    <p>© <span id="year"></span> CANDY³. Hosted by Aped in Crypto. · <a href="mailto:get@apedincrypto.com">get@apedincrypto.com</a></p>
+    <a href="/privacy.html">Privacy</a>
+  </footer>
+  <script src="/main.js" defer></script>
+</body>
+</html>
